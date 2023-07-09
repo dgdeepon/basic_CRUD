@@ -13,6 +13,16 @@ user.get('/',async(req,res)=>{
     }
 });
 
+// get single user
+user.get('/:id',async(req,res)=>{
+    try {
+        const data=await UserModel.findOne({"_id":req.params.id});
+        res.status(200).send({"user":data});
+    } catch (error) {
+        res.status(404).send({"message":"failed to get user data."})
+    }
+});
+
 // post
 user.post('/addUser',async(req,res)=>{
     const {name,email,phone}=req.body;
