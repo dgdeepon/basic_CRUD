@@ -1,0 +1,15 @@
+export const DATA_REQ='DATA_REQ';
+export const DATA_SUCC='DATA_SUCC';
+export const DATA_FAIL='DATA_FAIL';
+
+export const DATA_ADD_REQ='DATA_ADD_REQ';
+export const DATA_ADD_SUCC='DATA_ADD_SUCC';
+export const DATA_ADD_FAIL='DATA_ADD_FAIL';
+
+export const DATA_UPDATE_REQ='DATA_UPDATE_REQ';
+export const DATA_UPDATE_SUCC='DATA_UPDATE_SUCC';
+export const DATA_UPDATE_FAIL='DATA_UPDATE_FAIL';
+
+export const DATA_DELETE_REQ='DATA_DELETE_REQ';
+export const DATA_DELETE_SUCC='DATA_DELETE_SUCC';
+export const DATA_DELETE_FAIL='DATA_DELETE_FAIL';
